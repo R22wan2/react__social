@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.header{
+    color:aliceblue;
+    width:100vw;
+height:60px;
+    background-color: black;
+    position:relative;
+}
+.header .control_title{
+position: absolute; 
+left:50%;
+transform:translateX(-50%);
+font-size: xx-large;
+top:20%;
+}

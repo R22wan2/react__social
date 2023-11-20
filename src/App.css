@@ -1,38 +1,131 @@
-.App {
-  text-align: center;
+
+
+.apps{
+ 
+    display: flex;
+    flex-direction:column;
+  justify-content: space-between;
+  width:100vw;
+  height:100vh;
+ color:white;
+position: relative;
+}
+html{
+    background-image: linear-gradient(to left  top,rgb(59, 141, 59),rgb(0, 0, 0),rgb(114, 156, 60));
+ background-attachment: fixed;
+}
+*{
+    padding: 0;
+    margin:0;
+}
+.you{
+ position: absolute;
+ left:99999999;
+    }
+.searchs{
+
+
+align-self: center;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#j{
+    width: 100%;
+    height:30px;
+    text-align: center;
+    font-size: 20px;
+    font-style: oblique;
+    border-start-end-radius:15px;
+    border-start-start-radius:15px;
+    border-end-end-radius:15px;
+    border-end-start-radius:15px;
+    
+}
+#j:focus{
+    outline: none;
+}
+li{
+  
+    display: inline-block;
+    padding-right: 15px;
+
+    
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.lio:hover{
+   
+color: blue;
+}
+form{
+    display: inline-block;
+}
+.lio{
+    color:white;
+    text-decoration: none;
+}
+ul{
+  
+    width: 100%;
+    display: inline-block;
+}
+.searchs{
+    width:100%;
+    height:80px;  background-color: black;
+    position: relative;
+}
+.f_dis{
+    width:100%;
+   
+    display: flex;
+   justify-content:space-between;
+  position: absolute;
+  bottom:0;
+  bottom:30px; 
+}
+form{
+    width:100%;
+}
+.f_div{
+    width:70%;
+}
+.s_div{
+    width:30%;
+    text-align: center;
+}
+.Boxs{
+    background-image: linear-gradient(to bottom ,rgb(0, 97, 0) ,rgb(114, 102, 102));
+    width: 100%;
+    margin-bottom: 10px ;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0px black;
+    
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+.main_list{
 
-.App-link {
-  color: #61dafb;
+margin-top: 150px;;
+    align-self: center;
 }
+.title_of{
+    width:100%;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    text-align: center;
+}
+.title_tdl{
+    text-decoration:none;
+    color: white;
+}
+.about_text{
+    text-align:center;
+}
+.list_of_value{
+   position: absolute;
+   top:50%;
+}
+.footer{
+    margin-top: 800px;
+    padding: 200px;
+    background-color: black;
+    text-align: center;
 }

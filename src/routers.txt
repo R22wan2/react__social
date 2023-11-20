@@ -1,0 +1,46 @@
+<ul>
+  <li> <Link to="/">normal page</Link></li>
+  <li>  <Link to="/above" >about</Link></li>
+  <li> <Link to="/missing" >missing</Link></li>
+  <li><Link to="/footer" >footer </Link></li>
+  <li><Link to="/postpage" >postage </Link></li>
+</ul>
+<hr/>
+<Routes>
+  <Route path="/" element={
+    <Home />
+  } />
+  <Route path="/above" element={<About/>} />
+  <Route path="/missing" element={<NewPost/>} />
+  <Route path="/footer" element={<Footer/>} />
+{//nested route
+}
+  <Route path="/postpage" element={<PostLayout />}  >
+
+
+  <Route path=":id" element={<Post />} />
+ {//<Route path="3" element={<NewPost />}/>
+}
+  
+  
+  
+  </Route>
+
+
+
+  <Route path="*" element={<Missing/>} />
+</Routes>
+
+
+
+
+
+
+{/*<Header />
+<Nav />
+<Home />
+<NewPost />
+<PostPage />
+<About />
+<Missing />
+<Footer />
