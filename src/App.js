@@ -6,7 +6,7 @@ import Header from "./Header";
 import Nav from "./Nav";
 import "./app.css"
 import PostPage from "./PostPage";
-//import Post from "./Post";
+//import Post from "./Post";new line add by riswan
 import Home from "./Home";
 import Missing from "./Missing";
 import NewPost from "./Newpost";
